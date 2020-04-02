@@ -101,7 +101,6 @@ class Utils(object):
                 screen = cv2.imdecode(numpy.fromstring(Adb.exec_out(r"screencap -p | sed s/\r\n/\n/"),dtype=numpy.uint8),0)
             else:
                 screen = cv2.imdecode(numpy.fromstring(Adb.exec_out('screencap -p'), dtype=numpy.uint8), 0)
-        screen = cv2.resize(screen,(1920,1080))
 
     @classmethod
     def wait_update_screen(cls, time=None):
