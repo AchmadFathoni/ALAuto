@@ -566,6 +566,7 @@ class CombatModule(object):
             'E-C3': lambda: Utils.swipe(960, 540, 960, 500, 300),
             'E-D3': lambda: Utils.swipe(1040, 640, 960, 440, 300),
             '7-2': lambda: Utils.swipe(960, 540, 400, 600, 300),
+            '10-1': lambda: Utils.swipe(0, 0, 0, 0, 300),
             '12-2': lambda: Utils.swipe(1000, 570, 1300, 540, 300),
             '12-3': lambda: Utils.swipe(1250, 530, 1300, 540, 300),
             '12-4': lambda: Utils.swipe(960, 300, 960, 540, 300),
